@@ -3,8 +3,9 @@
 	margin: 5px;
 	padding: 10px;
 	top: 35%;
-	right: 35%;
-	transform: translate(0%,-36%);
+	right: 33%;
+
+	transform: translate(-20%,-36%);
 	position: absolute;
 }
 .image img
