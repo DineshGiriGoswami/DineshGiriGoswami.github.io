@@ -74,6 +74,8 @@ h1
 {
 	.main
 	{
+		top: 50%;
+		transform: translate(0,50%);
 		width: 95%;
 		margin-left: 2.5%;
 		margin-right: 2.5%;
