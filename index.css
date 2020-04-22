@@ -35,6 +35,155 @@
 	text-decoration: none;
 	color: rgb(51,103,214);
 }
+ul
+{
+	margin-left: 20px;
+}
+ul li
+{
+	list-style: none;
+	display: inline;
+	margin-right: 36px;
+}
+ul li a
+{
+	font-size: 25px;
+	color:black;
+}
+.footer
+{
+	text-align: center;
+	background-color: rgba(192, 169, 169, 0.39);
+	position: absolute;
+	top: 95%;
+	height: 40px;
+	width: 100%;
+	padding: 8px;
+	opacity: 0.6;
+}
+
+.pdf
+{
+	
+	margin:15px;
+	margin-top: -7px;
+	padding: 3px;
+	width: 85%;
+	border: none;
+	font-weight: 900;
+	border-radius: 10px;
+	margin-left: 0px;
+}
+.pdf a
+{
+	margin-top: -7px;
+	color: rgb(51,103,214);
+	height: 42px;
+	margin-top: 0px;
+	text-overflow: none;
+	font-size: 15px;
+	font-weight: 800;
+}
+/* media query */
+@media (max-width:1600px)
+{
+	.top
+	{
+		top: 35%;
+		right: 40%;
+		transform: translate(0%,-40%);
+		position: absolute;
+	}
+}
+
+@media (max-width:1200px)
+{
+	.top
+	{
+		top: 36%;
+		right: 30%;
+		transform: translate(0%,-37%);
+		position: absolute;
+	}
+}
+
+@media(max-width:800px)
+{
+	.top
+	{
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+		right: 5%;
+		left: 5%;
+		position: absolute;
+	}
+	li a
+	{
+		margin-right: -5px;
+	}
+	.social-link
+	{
+		margin-top: 0px;
+	}
+	.pdf
+	{
+		margin-top:0px;
+		width: 50%;
+		margin-left: -4px;
+		margin-top: -5px;
+	}
+	.top p,.top .social-link,.pdf
+	{
+		top: 90px;
+		position: relative;
+	}
+	.image
+	{
+		margin-left: 15px;
+		float: right;
+	}
+}.top
+{
+	margin: 5px;
+	padding: 10px;
+	top: 35%;
+	right: 33%;
+
+	transform: translate(-20%,-36%);
+	position: absolute;
+}
+.image img
+{
+	height: 190px;
+	width: 190px;
+	margin-left: 65px;
+	border-radius: 100%;
+}
+.image h1
+{
+	font-weight: 700;
+	font-family: 'Baloo Paaji 2', cursive;
+}
+.content p
+{
+	margin-left: 15px;
+}
+.social-link
+{
+	margin-top: 20px;
+	margin-left: 6px;
+}
+
+.college:hover,li a:hover,li a
+{
+	text-decoration: none;
+	color: rgb(51,103,214);
+}
+ul
+{
+	margin-left: 20px;
+}
 ul li
 {
 	list-style: none;
